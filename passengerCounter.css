@@ -1,0 +1,64 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	height: 100vh;
+  background-image: linear-gradient(#C70A80, #333);
+	width: 100%; /* Buraya daha önce width: 100vh verdim ve div'in ortalanmasına engel oldu. Buna dikkat et. */
+	font-family: 'Six Caps', sans-serif;
+	font-size: 4rem;
+	padding-top: 150px;
+
+	
+}
+
+#main-container {
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+}
+
+div {
+	margin: auto;
+	display: flex;
+	width: 900px;
+	height: 500px;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+h1 {
+	color: white;
+	letter-spacing: 3px;
+	}
+
+#heading {
+	font-family: 2rem;
+	letter-spacing: 20px;
+}
+
+#increment {
+	padding: 10px 50px;
+	background-image: linear-gradient(#36AE7C, #666);
+	color: white;
+	
+}
+
+
+#decrement {
+	margin: 10px;
+	padding: 10px 50px;
+	background-image: linear-gradient(#e00, #666);
+	color: white;
+
+}
+
+
+button:hover {
+	cursor: pointer;
+	
+}
